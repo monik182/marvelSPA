@@ -1,0 +1,398 @@
+/*MAIN*/
+
+
+
+.pag {
+    background-color: #F4F4F4;
+}
+
+.pagination>li>a,
+.pagination>li>a:hover {
+    color: #2D2727;
+    font-weight: bold;
+}
+
+
+div.row.main {
+    margin-top: 60px;
+    background-color: #EBEBEB;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+
+.mainContent {
+    background-color: #F4F4F4;
+}
+
+
+.mainContent,
+.rightContent {
+    min-height: 100vh;
+}
+
+nav,
+footer {
+    background-color: #2D2727;
+}
+
+
+header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+
+header h1 {
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 2.1em;
+    font-weight: bold;
+}
+
+header#char {
+    display: block;
+}
+
+#char .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+#char .col-sm-3 {
+    text-align: center;
+    margin-top: auto;
+
+}
+
+select#sort {
+    padding: 1em;
+    width: 100%;
+    color: #2D2727;
+}
+
+#characters > .row {
+    margin-bottom: 2em;
+}
+
+#characters > .row:first-child {
+    margin-top: 2em;
+}
+
+
+p.spinner {
+    margin-top: 3em;
+    font-size: 4em;
+}
+
+
+.message {
+    margin-top: 5em;
+    font-size: 2em;
+}
+
+div.square.character {
+    height: 23em;
+    background-color: #FFFFFF;
+    margin: 2em 1em 0;
+}
+
+div.square.character .row {
+    height: 11em;
+}
+
+div.square.character .description {
+    padding-top: 1em;
+    padding-right: 2em;
+    text-align: center;
+    height: 100%;
+    padding-left: 0;
+}
+
+.character .description p {
+    color: #776D6C;
+
+}
+
+.noDescription {
+    margin-top: 2em;
+}
+
+figure.character {
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+figure.character figcaption {
+    padding-top: 0.5em;
+    font-weight: bold;
+    padding-left: 1em;
+}
+
+.captionLg {
+    font-size: 1.5em;
+}
+
+.captionSm {
+    font-size: 1.2em;
+
+}
+
+img.character {
+    height: 13em;
+    width: 13em;
+    box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
+
+}
+
+a.figure,
+a.fig {
+    cursor: pointer;
+    color: #2D2727;
+}
+
+a.figure:hover,
+a.fig:hover {
+    text-decoration: none;
+}
+
+
+.character .description button {
+    color: white;
+    font-weight: 700;
+}
+
+.character .related {
+    color: #776D6C;
+}
+
+
+.character .related h3 {
+    padding-left: 1.6em;
+    font-weight: 400;
+}
+
+.character .related ul {
+    list-style: none;
+    /* list-style-position: outside; */
+    padding-left: 2em;
+}
+
+.character .related ul li {
+    margin-bottom: 1em;
+    overflow-y: hidden;
+    height: 3em;
+}
+
+
+
+
+
+
+
+
+/*COMIC*/
+
+.close {
+    opacity: 1;
+}
+
+.modal-dialog {
+    color: #2D2727;
+}
+
+.modal-header {
+    border-bottom-color: rgba(45, 39, 39, 0.7);
+}
+
+.modal-header h3 {
+    font-weight: bold;
+
+}
+
+
+.modal-body {
+    overflow-y: auto;
+    max-height: 80vh;
+}
+
+.modal-body h4 {
+    font-weight: 500;
+}
+
+.modal-body figcaption.title {
+    font-weight: 600;
+    margin-top: 0.5em;
+    color: #2D2727;
+}
+
+
+
+
+.row.comic {
+    margin-top: 1em;
+}
+
+.row.comic:fisrt-child {
+    margin-top: 2em;
+}
+
+img.comic {
+    height: 10em;
+    box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
+    max-width: 100%;
+}
+
+a.comicItm {
+    cursor: pointer;
+}
+
+a.comicItm:hover {
+    text-decoration: none;
+}
+
+
+
+.modal-footer {
+    padding: 0;
+}
+
+#comicItm .modal-footer div.col-sm-6:first-child {
+    padding-right: 0;
+}
+
+#comicItm .modal-footer div.col-sm-6:last-child {
+    padding-left: 0;
+}
+
+
+img.comicThumbnail {
+    max-width: 100%;
+    box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
+}
+
+#comicItm .modal-body h4 {
+    font-weight: 700;
+    margin-top: 0;
+}
+
+#comicItm i {
+    position: absolute;
+    right: 0.5em;
+    z-index: 100;
+    top: 0.5em;
+}
+
+
+.modal-footer button {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.modal-footer button,
+.modal-footer a {
+    font-weight: bold;
+    width: 100%;
+    box-shadow: none;
+}
+
+button.add,
+button.add:hover {
+    background-color: #F4F4F4;
+    color: #2D2727;
+}
+
+button.add.added,
+button.add.added:hover {
+    color: #EC1D23;
+    background-color: #2D2727;
+}
+
+
+a.buy,
+a.buy:hover {
+    background-color: #DCDCDC;
+    color: #EC1D23 !important;
+}
+
+
+
+#viewMore p.text-justify {
+    padding-left: 1em;
+}
+
+#viewMore button,
+#viewMore button:hover {
+    color: white;
+    font-weight: bold;
+}
+
+
+
+.row.favourite,
+.row.favourite > div {
+    margin-top: 1em;
+}
+
+
+img.favourite {
+    height: 20em;
+    box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
+    max-width: 14em;
+}
+
+
+span.delete {
+    position: absolute;
+    right: 2em;
+    z-index: 10;
+
+}
+
+span.delete:hover {
+    cursor: pointer;
+
+}
+
+span.delete img {
+    width: 2em;
+}
+
+
+
+
+button#addRandom,
+button#addRandom:hover {
+    color: white;
+    font-weight: bold;
+    margin-left: 2em;
+}
+
+
+#added {
+    z-index: 10000;
+}
+
+
+@media (max-width: 787px) {
+    .mainContent,
+    .rightContent {
+        width: 100%;
+    }
+}

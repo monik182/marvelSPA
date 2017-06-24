@@ -1,0 +1,81 @@
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    color: #2D2727;
+    overflow-x: hidden;
+    background-color: #EBEBEB;
+    padding-right: 0;
+}
+
+
+.red {
+    color: #EC1D23;
+}
+
+.redBg {
+    background-color: #EC1D23;
+}
+
+.brownBg {
+    background-color: #2D2727;
+}
+
+
+button {
+    box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
+}
+
+
+
+/*NAVBAR*/
+
+nav {
+    height: 60px;
+    box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
+
+}
+
+.navbar-brand {
+    width: 6em;
+    padding: 0.4em;
+}
+
+
+div.navbar-form {
+    text-align: center;
+    margin-top: 0.4em;
+}
+
+div div.form-group.has-feedback {
+    width: 50%;
+}
+
+#finder {
+    width: 100%;
+}
+
+span.fa.fa-search.form-control-feedback {
+    opacity: 0.5;
+}
+
+
+/*FOOTER*/
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+/*    background-color: #f5f5f5;*/
+    z-index: 10;
+}
+
+
+.footer .container .text-muted{
+    margin: 20px 0;
+}
+
+.footer img {
+    width: 3em !important;
+    margin-top: 0.5em;
+}
